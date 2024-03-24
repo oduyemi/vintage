@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 function getClassName({className}){
-    return clsx("bg-lightgreen text-[#FEFEFE] hover:bg-faded rounded-md px-2 py-2 hover:[#5D5D5D] hover:text-white transition-colors transition-duration-300 cursor-pointer focus-outline-none focus-ring-2 focus-ring-opacity-50",
+    return clsx("bg-sharpgreen text-[#FEFEFE] hover:bg-faded rounded-md px-2 py-2 hover:[#5D5D5D] hover:text-white transition-colors transition-duration-300 cursor-pointer focus-outline-none focus-ring-2 focus-ring-opacity-50",
     className)
 }
 
