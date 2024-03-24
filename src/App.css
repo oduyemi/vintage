@@ -100,7 +100,7 @@ slick-prev::before{
 
 
 @media (max-width: 768px) {
-  .no_mobile{
+  .sidebar, .slidebanner{
     display: none !important;
   }
 

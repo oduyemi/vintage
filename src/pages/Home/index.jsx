@@ -2,6 +2,7 @@ import { Box } from "@mui/system";
 import { Banner } from "../../components/Banner"
 import { Sidebar } from "../../components/Sidebar";
 import { SlideBanner } from "../../components/SlideBanner";
+import { Trending } from "../../components/Trending";
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
                 </Box>
                 <Box margin="10px">
                     <SlideBanner />
+                    <Trending />
                 </Box>
             </Box>
         </>
