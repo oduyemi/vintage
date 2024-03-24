@@ -22,6 +22,39 @@ body{
 }
 
 
+.slidebox{
+  width: 800px;
+  height: 240px !important;
+  position: relative;
+}
+
+
+.ad_slider .item{
+  box-shadow: 0 4px 5px #F1F7ED;
+  padding: 10px;
+  position: relative;
+}
+
+.slick-dots li.slick-active button::before{
+  color: #FA9F42;
+}
+
+.slick-dots li button::before{
+  font-size: 10px;
+}
+
+slick-next::before,
+slick-prev::before{
+  color: #FA9F42;
+  font-size: 22px;
+}
+
+.item:hover{
+  display: block;
+  transition: all ease 0.3s;
+  transform: scale(1.1) translateY(-5px);
+}
+
 
 
 /* @media (min-width: 768px) {
@@ -67,8 +100,8 @@ body{
 
 
 @media (max-width: 768px) {
-  .sidebar_{
-    display: none;
+  .no_mobile{
+    display: none !important;
   }
 
   .trips{

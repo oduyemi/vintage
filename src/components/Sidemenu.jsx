@@ -190,7 +190,7 @@ const Sidemenu = ({ isExpand = true, isExpandOnHover = false }) => {
             }
           }}
           className={[
-            "group m-0 flex cursor-pointer rounded-lg items-center justify-between h-12 py-0 pr-3 mb-1 focus:outline-none",
+            "group m-0 flex cursor-pointer rounded-lg items-center justify-between h-12 py-0 pr-3 mb-1 focus:outline-none relative z-1",
             recursive === 0 ? "pl-4" : recursive === 1 ? "pl-11" : "pl-16",
             activeName === item.name || activeName.split(".")[0] === item.name
               ? `text-blue-600 font-semibold ${

@@ -4,7 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 
 export const Banner = () => {
     return(
-        <Box maxWidth="xl" height={240} className="bg-main text-white">
+        <Box maxWidth="xl" height={240} className="banner relative z-index bg-main text-white">
             <Box maxWidth="l" className="">
                 <Box className="pt-16">
                     <Typography

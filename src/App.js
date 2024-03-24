@@ -1,4 +1,5 @@
 import './App.css';
+import "animate.css";
 import { Navigation } from "./navigation/index"
 
 function App() {

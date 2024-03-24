@@ -11,7 +11,7 @@ import PersonPinIcon from '@mui/icons-material/PersonPin';
 export const Header = () => {
   
   return (
-    <header className="bg-lightorange main_header">
+    <header className="bg-main opacity-95 sticky top-0 z-50 shadow">
         <nav
         id="header"
         className=""
