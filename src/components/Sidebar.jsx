@@ -18,7 +18,7 @@ export const Sidebar = ({ setExpand }) => {
     <nav
       role="navigation"
       className={[
-        "sidebar relative z-1 bg-white shadow shadow-3 border-r rounded-xl h-screen top-0",
+        "sidebar relative z-1 shadow shadow-3 border-r rounded-xl h-screen top-0",
         "transition-all duration-300 ease-in-out md:sticky",
         `${
           isExpand

@@ -1,5 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
+import Tooltip from '@mui/material/Tooltip';
 import Button from "./elements/Button"
 import { Link } from "react-router-dom";
 import ListIcon from '@mui/icons-material/List';
@@ -30,24 +31,32 @@ export const Header = () => {
            
             <Box className="flex items-center justify-between space-x-4 mt-[-2.8%]">
                 <Box className="flex items-center justify-between space-x-4">
-                <Link to="">
-                        <ListIcon className="text-lightcream"/>
-                    </Link>
+                    <Tooltip title="Wishlist">
+                        <Link to="/wishlist">
+                            <ListIcon className="text-lightcream"/>
+                        </Link>
+                    </Tooltip>
                 </Box>
-                <Box className="flex items-center justify-between space-x-4">   
-                    <Link to="">
-                        <MessageIcon className="text-lightcream" />
-                    </Link>
+                <Box className="flex items-center justify-between space-x-4"> 
+                    <Tooltip title="Messages">  
+                        <Link to="/messages">
+                            <MessageIcon className="text-lightcream" />
+                        </Link>
+                    </Tooltip>
                 </Box>
                 <Box className="flex items-center justify-between space-x-4">
-                    <Link to="">
-                        <SpeakerNotesIcon  className="text-lightcream"/>
-                    </Link>
+                    <Tooltip title="My Ads">
+                        <Link to="/ads">
+                            <SpeakerNotesIcon  className="text-lightcream"/>
+                        </Link>
+                    </Tooltip>
                 </Box>
                 <Box className="flex items-center justify-between space-x-4">
-                    <Link to="">
-                        <PersonPinIcon className="text-lightcream" />
-                    </Link>
+                    <Tooltip title="Profile">
+                        <Link to="/profile">
+                            <PersonPinIcon className="text-lightcream" />
+                        </Link>
+                    </Tooltip>
                 </Box>
                 <Box className="flex items-center justify-between space-x-4">
                     <Link to="/signup">

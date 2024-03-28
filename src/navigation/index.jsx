@@ -10,6 +10,8 @@ import Profile from "../pages/Profile";
 import Wishlist from "../pages/Wishlist";
 import Messages from "../pages/Messages";
 import Seller from "../pages/Seller";
+import Feedback from "../pages/Feedback";
+import Ads from "../pages/Ads";
 
 
 
@@ -25,7 +27,9 @@ export const Navigation = () => {
                     <Route path="/forget-password" element={<ForgetPassword />}  />
                     <Route path="/reset-password" element={<ResetPassword />}  />
                     <Route path="/profile" element={<Profile />} />
+                    <Route path="/profile-review" element={<Feedback />} />
                     <Route path="/wishlist" element={<Wishlist />} />
+                    <Route path="/ads" element={<Ads />} />
                     <Route path="/messages" element={<Messages />} />
                     <Route path="/seller" element={<Seller />} />
                 </Routes>

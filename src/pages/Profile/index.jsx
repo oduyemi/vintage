@@ -1,3 +1,4 @@
+import { ProfilePage } from "../../components/Profile";
 
 
 
@@ -5,7 +6,7 @@
 const Profile = () => {
     return(
         <>
-            Profile
+            <ProfilePage />
         </>
     )
 }

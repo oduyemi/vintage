@@ -1,3 +1,4 @@
+import { Chat } from "../../components/Chat"
 
 
 
@@ -5,7 +6,7 @@
 const Messages = () => {
     return(
         <>
-            Messages
+            <Chat />
         </>
     )
 }

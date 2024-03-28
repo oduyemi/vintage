@@ -16,7 +16,7 @@ export const SlideBanner = () => {
 
     return(
         <>
-            <Box display="flex" height={240} justifyContent="center" margin="10px" className="slidebanner relative z-1">
+            <Box display="flex" height={240} justifyContent="center" margin="10px" className="slidebanner relative z-1 w-fit">
                 <Box maxWidth="l" className="slidebox shadow border rounded-xl">
                     <Slider {...settings}
                         className="ad_slider flex items-center justify-center"
