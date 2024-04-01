@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 function getClassName({className}){
-    return clsx("bg-sharpgreen text-[#FEFEFE] hover:bg-greene rounded-md px-2 py-2 hover:[#5D5D5D] hover:text-white transition-colors transition-duration-300 cursor-pointer focus-outline-none focus-ring-2 focus-ring-opacity-50",
+    return clsx("bg-newgreen text-lightcream hover:bg-dark rounded-md px-2 py-2 hover:[#5D5D5D] hover:text-white transition-colors transition-duration-300 cursor-pointer focus-outline-none focus-ring-2 focus-ring-opacity-50",
     className)
 }
 
@@ -13,7 +13,7 @@ const sizes = {
 
 const variants = {
     colour: "bg-color focus:ring-wht",
-    outline: "bg-transparent text-gray-400 border border-2 focus:ring-dk",
+    outline: "bg-transparent text-dark border border-2 focus:ring-dk",
     whi: "bg-whi focus:ring-yel",
 };
 

@@ -9,7 +9,7 @@ import ResetPassword from "../pages/ResetPassword";
 import Profile from "../pages/Profile";
 import Wishlist from "../pages/Wishlist";
 import Messages from "../pages/Messages";
-import Seller from "../pages/Seller";
+import Sell from "../pages/Sell";
 import Feedback from "../pages/Feedback";
 import Ads from "../pages/Ads";
 
@@ -31,7 +31,7 @@ export const Navigation = () => {
                     <Route path="/wishlist" element={<Wishlist />} />
                     <Route path="/ads" element={<Ads />} />
                     <Route path="/messages" element={<Messages />} />
-                    <Route path="/seller" element={<Seller />} />
+                    <Route path="/sell" element={<Sell />} />
                 </Routes>
         </>
     );

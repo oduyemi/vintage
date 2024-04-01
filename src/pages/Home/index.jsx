@@ -15,7 +15,7 @@ const Home = () => {
                 <Box margin="10px">
                     <Sidebar />
                 </Box>
-                <Box margin="10px">
+                <Box margin="auto">
                     <SlideBanner />
                     <Trending />
                 </Box>

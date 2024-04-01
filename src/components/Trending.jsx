@@ -12,7 +12,7 @@ export const Trending = () => {
                         variant="h5"
                         className="text-2x font-bold sm:text-3xl"
                         sx={{
-                            marginTop:"-6%",
+                            marginTop:"-3%",
                             marginBottom: "-4%"
                         }}
                     >Trending Ads</Typography>

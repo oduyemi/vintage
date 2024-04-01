@@ -18,18 +18,17 @@ export const Header = () => {
         className=""
         >  
             <Box className="flex items-center justify-between">
-            <Box className="mt-[-2.8%] logo mr-2">
+            <Box className="mt-5 logo mr-2">
                 <Link to="/" className="text-l block">
                 <img
                 src={require("../assets/images/logo/logo.png")}
                 alt="logo"
-                width="100%"
-                className="ml-4 w-40 w-40"
+                className="ml-4 w-20"
                 />
                 </Link>
             </Box> 
            
-            <Box className="flex items-center justify-between space-x-4 mt-[-2.8%]">
+            <Box className="flex items-center justify-between space-x-4 mt-4">
                 <Box className="flex items-center justify-between space-x-4">
                     <Tooltip title="Wishlist">
                         <Link to="/wishlist">
@@ -59,8 +58,8 @@ export const Header = () => {
                     </Tooltip>
                 </Box>
                 <Box className="flex items-center justify-between space-x-4">
-                    <Link to="/signup">
-                        <Button className="px-8 mr-6">SELL</Button>
+                    <Link to="/sell">
+                        <Button className="px-8 mr-7">SELL</Button>
                     </Link>
                 </Box>
             </Box>

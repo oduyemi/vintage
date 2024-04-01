@@ -2,7 +2,6 @@
 
 import { Box, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import Button from "./elements/Button";
 
 
 
@@ -13,7 +12,7 @@ export const FeedbackContent = () => {
             <Box id="sideNav" className="lg:block hidden bg-white w-64 h-screen fixed rounded-none border-none">
                 <Box className="p-4 space-y-4">
                     <Link to="/profile" aria-label="dashboard"
-                        className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-gradient-to-r from-main to-sharpgreen">
+                        className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-main">
                         <span className="-mr-1 font-medium">{" "}My Ads</span>
                     </Link>
 
@@ -53,18 +52,18 @@ export const FeedbackContent = () => {
                             <Box
                                 className="flex-1 bg-gradient-to-r from-main to-sharpgreen rounded-xl flex flex-col items-center justify-center p-4 space-y-2 border border-gray-200 m-2">
                                 <i className="fas fa-hand-holding-usd text-white text-4xl"></i>
-                                <Link to="" className="text-white">Closed Ads</Link>
+                                <Link to="" className="text-lightcream hover:text-main">Closed Ads</Link>
                             </Box>
 
                             <Box
                                 className="flex-1 bg-gradient-to-r from-main to-sharpgreen rounded-xl flex flex-col items-center justify-center p-4 space-y-2 border border-gray-200 m-2">
                                 <i className="fas fa-exchange-alt text-white text-4xl"></i>
-                                <Link to="" className="text-white">Current Ads</Link>
+                                <Link to="" className="text-lightcream hover:text-main">Current Ads</Link>
                             </Box>
 
                             <Box
-                                className="flex-1 bg-sharpgreen rounded-xl flex flex-col items-center justify-center p-4 space-y-2 border border-gray-200 m-2">
-                                <Link to="" className="text-white">Post New</Link>
+                                className="flex-1 bg-dark rounded-xl flex flex-col items-center justify-center p-4 space-y-2 border border-gray-200 m-2">
+                                <Link to="/sell" className="text-lightcream hover:text-main">Post New</Link>
                             </Box>
                         </Box>
                     </Box>

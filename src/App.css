@@ -23,8 +23,8 @@ body{
 
 
 .slidebox{
-  width: 800px;
-  height: 240px !important;
+  width: 400px;
+  height: 260px !important;
   position: relative;
 }
 
@@ -57,27 +57,7 @@ slick-prev::before{
 
 
 
-/* @media (min-width: 768px) {
-  body.homepage {
-    background-image: url("assets/images/home.jpg");
-  }
-}
 
-@media (max-width: 767px) {
-  body.homepage {
-    background-image: url("assets/images/home_small.jpg");
-  }
-  
-}
-
-.lazyload {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.lazyloaded {
-  opacity: 1;
-} */
 
 
 
@@ -99,6 +79,13 @@ slick-prev::before{
 
 
 
+@media (max-width: 1007px) {
+  .pointicon{
+    margin-left: 22% !important;
+  }
+}
+
+
 @media (max-width: 768px) {
   .sidebar, .slidebanner{
     display: none !important;
@@ -113,5 +100,15 @@ slick-prev::before{
     position: relative;
   }
 
+  
+}
+
+@media (min-width: 1100px) {
+  .slidebox{
+    width: 840px;
+    height: 260px !important;
+    margin-left: -10px;
+    margin-right: 40px
+  }
   
 }

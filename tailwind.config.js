@@ -14,6 +14,8 @@ module.exports = {
       },
       colors:{
         main: "#FE6700",
+        newgreen: "#058108",
+        dark: "#171917",
         greene: "#2C6E49",
         sharpgreen: "#31CB00",
         faded: "#F1F7ED",
