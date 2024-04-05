@@ -28,16 +28,9 @@ export const Adverts = () => {
                 </Box>
             </Box>
 
-            <Box className="lg:ml-64 lg:pl-4 lg:flex lg:flex-col lg:w-75% mt-5 mx-2">
+            <Box className="lg:ml-64 lg:pl-4 lg:flex lg:flex-col lg:w-75% mt-0 mx-2">
 
-                <Box className="bg-white rounded-full border-none p-3 mb-4 shadow-md">
-                    <Box className="flex items-center">
-                        <i className="px-3 fas fa-search ml-1"></i>
-                        <input type="text" placeholder="Search..." className="ml-3 focus:outline-none w-full" />
-                    </Box>
-                </Box>
-
-                <Box className="bg-white rounded-xl p-4 shadow-md my-4">
+                <Box className="bg-white rounded-xl p-4 shadow-md mb-4">
                     <table className="table-auto w-full">
                         <thead>
                             <tr>

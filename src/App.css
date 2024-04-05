@@ -22,7 +22,7 @@ body{
 }
 
 
-.slidebox{
+/* .slidebox{
   width: 400px;
   height: 260px !important;
   position: relative;
@@ -41,7 +41,7 @@ body{
 
 .slick-dots li button::before{
   font-size: 10px;
-}
+} */
 
 slick-next::before,
 slick-prev::before{
@@ -55,6 +55,11 @@ slick-prev::before{
   transform: scale(1.1) translateY(-5px);
 }
 
+
+body.admin {
+  background-color:#FA9F42;
+  background-size: cover;
+}
 
 
 
@@ -96,14 +101,14 @@ slick-prev::before{
   }
 
   .logo {
-    width: 100%;
+    width: 80%;
     position: relative;
   }
 
   
 }
 
-@media (min-width: 1100px) {
+/* @media (min-width: 1100px) {
   .slidebox{
     width: 840px;
     height: 260px !important;
@@ -111,4 +116,4 @@ slick-prev::before{
     margin-right: 40px
   }
   
-}
+} */

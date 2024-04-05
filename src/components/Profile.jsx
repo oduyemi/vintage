@@ -10,7 +10,7 @@ import Button from "./elements/Button";
 export const ProfilePage = () => {
     return(
         <>
-            <Box id="sideNav" className="lg:block hidden bg-white w-64 h-screen fixed rounded-none border-none">
+            <Box id="sideNav" className="lg:block hidden bg-faded w-full lg:w-64 h-screen fixed rounded-none border-none">
                 <Box className="p-4 space-y-4">
                     <Link to="/profile" aria-label="dashboard"
                         className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-main">
@@ -30,25 +30,17 @@ export const ProfilePage = () => {
 
             <Box className="lg:ml-64 lg:pl-4 lg:flex lg:flex-col lg:w-75% mt-5 mx-2">
 
-                <Box className="bg-white rounded-full border-none p-3 mb-4 shadow-md">
-                    <Box className="flex items-center">
-                        <i className="px-3 fas fa-search ml-1"></i>
-                        <input type="text" placeholder="Search..." className="ml-3 focus:outline-none w-full" />
-                    </Box>
-                </Box>
-
                 <Box className="lg:flex gap-4 items-stretch">
-                    <Box className="bg-white md:p-2 p-6 rounded-xl border border-gray-200 mb-4 lg:mb-0 shadow-md lg:w-[35%]">
-                        <Box className="flex justify-center items-center space-x-5 h-full">
+                    <Box className="bg-white md:p-2 p-6 rounded-xl border border-gray-200 mb-4 lg:mb-0 shadow-md lg:w-[50%]">
+                        <Box className="flex justify-center items-center space-x-3 h-full">
                             <Box>
-                                <Typography variant="h5" className="text-greene" paragraph>John Doe</Typography>
-                                <img src={require("../assets/images/avatar.png")} className="md:w-40 mx-auto" alt="dp" />  
+                                <Typography variant="h5" className="text-greene mt-2" paragraph>John Doe</Typography><br/>
                                 <p>07055444778</p>
                             </Box>
                         </Box>
                     </Box>
 
-                    <Box className="bg-white p-4 rounded-xl xs:mb-4 max-w-full shadow-md lg:w-[65%]">
+                    <Box className="bg-white p-4 rounded-xl xs:mb-4 max-w-full shadow-md lg:w-[50%]">
                         <Box className="flex flex-wrap justify-between h-full">
                             <Box
                                 className="flex-1 bg-gradient-to-r from-main to-sharpgreen rounded-xl flex flex-col items-center justify-center p-4 space-y-2 border border-gray-200 m-2">

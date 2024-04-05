@@ -1,3 +1,4 @@
+import { LoginForm } from "../../components/Login"
 
 
 
@@ -5,7 +6,7 @@
 const Login = () => {
     return(
         <>
-            Login
+            <LoginForm />
         </>
     )
 }

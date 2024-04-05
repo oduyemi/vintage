@@ -12,6 +12,7 @@ import Messages from "../pages/Messages";
 import Sell from "../pages/Sell";
 import Feedback from "../pages/Feedback";
 import Ads from "../pages/Ads";
+import AdminLogin from "../pages/AdminLogin";
 
 
 
@@ -32,6 +33,7 @@ export const Navigation = () => {
                     <Route path="/ads" element={<Ads />} />
                     <Route path="/messages" element={<Messages />} />
                     <Route path="/sell" element={<Sell />} />
+                    <Route path="/admin/login" element={<AdminLogin />} />
                 </Routes>
         </>
     );

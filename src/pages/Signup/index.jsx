@@ -1,3 +1,4 @@
+import { RegisterForm } from "../../components/Register"
 
 
 
@@ -5,7 +6,7 @@
 const Signup = () => {
     return(
         <>
-            Signup
+            <RegisterForm />
         </>
     )
 }

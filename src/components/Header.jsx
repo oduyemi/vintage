@@ -3,9 +3,9 @@ import { Box } from "@mui/material";
 import Tooltip from '@mui/material/Tooltip';
 import Button from "./elements/Button"
 import { Link } from "react-router-dom";
-import ListIcon from '@mui/icons-material/List';
-import MessageIcon from '@mui/icons-material/Message';
-import SpeakerNotesIcon from '@mui/icons-material/SpeakerNotes';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import MarkUnreadChatAltIcon from '@mui/icons-material/MarkUnreadChatAlt';
+import PointOfSaleIcon from '@mui/icons-material/PointOfSale';
 import PersonPinIcon from '@mui/icons-material/PersonPin';
 
 
@@ -18,7 +18,7 @@ export const Header = () => {
         className=""
         >  
             <Box className="flex items-center justify-between">
-            <Box className="mt-5 logo mr-2">
+            <Box className="mt-3 logo mr-2">
                 <Link to="/" className="text-l block">
                 <img
                 src={require("../assets/images/logo/logo.png")}
@@ -32,28 +32,28 @@ export const Header = () => {
                 <Box className="flex items-center justify-between space-x-4">
                     <Tooltip title="Wishlist">
                         <Link to="/wishlist">
-                            <ListIcon className="text-lightcream"/>
+                            <FavoriteIcon className="text-lightcream hover:text-greene"/>
                         </Link>
                     </Tooltip>
                 </Box>
                 <Box className="flex items-center justify-between space-x-4"> 
                     <Tooltip title="Messages">  
                         <Link to="/messages">
-                            <MessageIcon className="text-lightcream" />
+                            <MarkUnreadChatAltIcon className="text-lightcream hover:text-greene" />
                         </Link>
                     </Tooltip>
                 </Box>
                 <Box className="flex items-center justify-between space-x-4">
                     <Tooltip title="My Ads">
                         <Link to="/ads">
-                            <SpeakerNotesIcon  className="text-lightcream"/>
+                            <PointOfSaleIcon className="text-lightcream hover:text-greene"/>
                         </Link>
                     </Tooltip>
                 </Box>
                 <Box className="flex items-center justify-between space-x-4">
                     <Tooltip title="Profile">
                         <Link to="/profile">
-                            <PersonPinIcon className="text-lightcream" />
+                            <PersonPinIcon className="text-lightcream hover:text-greene" />
                         </Link>
                     </Tooltip>
                 </Box>

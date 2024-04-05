@@ -10,11 +10,11 @@ import Button from "./elements/Button";
 export const SavedItems = () => {
     return(
         <>
-            <Box id="sideNav" className="lg:block hidden bg-white w-64 h-screen fixed rounded-none border-none">
+             <Box id="sideNav" className="lg:block hidden bg-faded w-full lg:w-64 h-screen fixed rounded-none border-none">
                 <Box className="p-4 space-y-4">
                     <Link to="/profile" aria-label="dashboard"
                         className="relative px-4 py-3 flex items-center space-x-4 rounded-xl text-white bg-main">
-                        <span className="-mr-1 font-medium">{" "} My Ads</span>
+                        <span className="-mr-1 font-medium">{" "}My Ads</span>
                     </Link>
 
                     <Link to="#" className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-500 group">
@@ -22,6 +22,7 @@ export const SavedItems = () => {
                         <span><Link to="/profile-review">Reviews</Link></span>
                     </Link>
                     <Link to="#" className="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-500 group">
+                        <i className="fas fa-exchange-alt"></i>
                         <span><Link to="/wishlist">Wishlist</Link></span>
                     </Link>
                 </Box>
